@@ -3,5 +3,6 @@
   "web_url": "https://cosmochrony.org/science/non-injective/no-scale/",
   "main_tex": "tex/no-scale.tex",
   "zenodo_id": 19744767,
-  "doi": "10.5281/zenodo.19744767"
+  "doi": "10.5281/zenodo.19744767",
+  "version": "1.0"
 }
