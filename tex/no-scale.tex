@@ -33,9 +33,9 @@ at the Level of Admissibility}
 
   \begin{abstract}
     The admissibility structure of Foundation~M~\cite{Beau2026m} is built on a single primitive dimensional
-    scale~$c_{\mathrm{BI}}$ entering the Born\textendash Infeld bound (A3\textendash A4).
+    scale~$c_\chi$ entering the Born\textendash Infeld bound (A3\textendash A4).
     We establish a structural rigidity result (Level~1): any deformation of the admissibility
-    constraints that introduces a dimensional parameter independent of~$c_{\mathrm{BI}}$ breaks at least
+    constraints that introduces a dimensional parameter independent of~$c_\chi$ breaks at least
     one of BFS-consistent spectral scaling, structural non-injectivity (A2/ENI),
     or bounded admissibility closure (A3\textendash A4).
     As an immediate corollary, dynamical fields carrying an independent dimensional coupling
@@ -58,7 +58,7 @@ at the Level of Admissibility}
   \subsection*{Guiding principle}
 
     The admissibility structure of the Cosmochrony programme~\cite{Cosmochrony} is closed under
-    reparameterisations of the primitive scale~$c_{\mathrm{BI}}$, but not under the introduction of
+    reparameterisations of the primitive scale~$c_\chi$, but not under the introduction of
     independent dimensional parameters.
     The present note makes this principle precise.
 
@@ -68,7 +68,7 @@ at the Level of Admissibility}
     admissibility operator $\mathcal{L}_{\mathrm{eff}}$ selects the Schwarzschild metric as the unique
     exterior stationary solution compatible with spherical symmetry and bounded admissibility.
     The exclusion of the Reissner\textendash Nordstr\"om and Schwarzschild\textendash de~Sitter
-    deformations rests on the claim that no dimensional parameter independent of~$c_{\mathrm{BI}}$ enters
+    deformations rests on the claim that no dimensional parameter independent of~$c_\chi$ enters
     the admissibility structure: a charge $Q$ with dimensions $[\mathrm{charge}]$ or a cosmological
     constant $\Lambda$ with dimensions $[\mathrm{length}]^{-2}$ would each introduce such a parameter.
     The present note supplies the structural backing for this claim.
@@ -78,7 +78,7 @@ at the Level of Admissibility}
     The result proved here (Level~1) establishes that no independent dimensional parameter can be
     introduced into the admissibility constraints without breaking structural consistency.
     It does not establish Level~2: that every emergent scale is uniquely determined as a functional
-    of~$c_{\mathrm{BI}}$ and the cascade, without free parameters.
+    of~$c_\chi$ and the cascade, without free parameters.
     The distinction is discussed in Section~\ref{sec:discussion}.
 
   \section{Framework and Definitions}
@@ -94,7 +94,7 @@ at the Level of Admissibility}
     \item[(A2)] The projection $\Pi\colon \mathcal{C} \to \mathcal{O}$ is non-injective; distinct
     underlying configurations may share the same observable image.
     \item[(A3)] The Born\textendash Infeld admissibility bound holds:
-    $A_n \leq c_{\mathrm{BI}} / \sqrt{\lambda_n}$, where $c_{\mathrm{BI}}$ is the unique primitive dimensional
+    $A_n \leq c_\chi / \sqrt{\lambda_n}$, where $c_\chi$ is the unique primitive dimensional
     scale of the admissibility structure.
     \item[(A4)] The admissibility closure is bounded: the projected spectral capacity
     $\sigma_{\mathrm{pair}}(n) = \sigma_c(n)\cdot\sigma_{q-c}(n)$ on conjugate Weil
@@ -105,14 +105,14 @@ at the Level of Admissibility}
     \label{def:independent-scale}
     A parameter $\lambda$ is called an \emph{independent dimensional parameter} (with respect to
     the admissibility structure) if the dimensions of $\lambda$ are not expressible as a rational
-    power of the dimensions of $c_{\mathrm{BI}}$.
-    Equivalently, $[\lambda] \neq [c_{\mathrm{BI}}]^k$ for any $k \in \mathbb{Q}$.
+    power of the dimensions of $c_\chi$.
+    Equivalently, $[\lambda] \neq [c_\chi]^k$ for any $k \in \mathbb{Q}$.
 
     A \emph{dimensionless} parameter (i.e., $[\lambda] = 1$) is not an independent dimensional
     parameter in this sense.
     In particular, any parameter entering the admissibility structure only through a dimensionless
-    ratio with~$c_{\mathrm{BI}}$ (i.e., through $\lambda/c_{\mathrm{BI}}^k$ for some $k \in \mathbb{Q}$) is not
-    independent in the sense of this definition, and reduces to a rescaling of~$c_{\mathrm{BI}}$.
+    ratio with~$c_\chi$ (i.e., through $\lambda/c_\chi^k$ for some $k \in \mathbb{Q}$) is not
+    independent in the sense of this definition, and reduces to a rescaling of~$c_\chi$.
     Finite resolution parameters such as $q \in \mathbb{Z}_{>0}$ are dimensionless and disappear
     in the $q \to \infty$ continuum limit; they are excluded from the scope of the present definition.
   \end{definition}
@@ -122,7 +122,7 @@ at the Level of Admissibility}
     A \emph{deformation} of the admissibility bound is the replacement
     \begin{equation}
       \label{eq:deformed-bound}
-      A_n \;\leq\; \frac{c_{\mathrm{BI}}}{\sqrt{\lambda_n}}\,\Phi(\lambda;\,\mathrm{data}_n),
+      A_n \;\leq\; \frac{c_\chi}{\sqrt{\lambda_n}}\,\Phi(\lambda;\,\mathrm{data}_n),
     \end{equation}
     where $\lambda$ is an additional parameter (possibly dimensional) and $\mathrm{data}_n$
     denotes the BFS-level data at depth~$n$ (shell size, spectral weights, Weil block structure).
@@ -134,7 +134,7 @@ at the Level of Admissibility}
 
   \begin{theorem}[No external dimensional scale, Level~1]
     \label{thm:no-external-scale-L1}
-    Let the admissibility structure of Foundation~M be given with primitive dimensional scale~$c_{\mathrm{BI}}$.
+    Let the admissibility structure of Foundation~M be given with primitive dimensional scale~$c_\chi$.
     Any deformation of the admissibility constraints in the sense of
     Definition~\ref{def:deformation} that introduces an independent dimensional parameter $\lambda$
     (in the sense of Definition~\ref{def:independent-scale}) breaks at least one of the following:
@@ -155,16 +155,16 @@ at the Level of Admissibility}
       the fibre.
 
       If $\lambda$ is an independent dimensional parameter, then $[\lambda]$ is incommensurable with
-      $[c_{\mathrm{BI}}]$, so $f(\lambda)$ must carry non-trivial dimensions to yield a dimensionally homogeneous
+      $[c_\chi]$, so $f(\lambda)$ must carry non-trivial dimensions to yield a dimensionally homogeneous
       right-hand side in~\eqref{eq:deformed-bound}.
-      But $A_n$ and $c_{\mathrm{BI}}/\sqrt{\lambda_n}$ are objects of the same dimensional type by construction
+      But $A_n$ and $c_\chi/\sqrt{\lambda_n}$ are objects of the same dimensional type by construction
       of the admissibility bound.
       Introducing $f(\lambda)$ with $[\,f(\lambda)\,] \neq 1$ produces a right-hand side of different
       dimensional type, making the bound ill-typed.
       This violates the closure of A3.
 
       If $\lambda$ is dimensionless, then $f(\lambda)$ is a dimensionless constant and can be absorbed
-      into a redefinition $c_{\mathrm{BI}} \mapsto c_{\mathrm{BI}}\,f(\lambda)^{1/2}$, producing no new scale.
+      into a redefinition $c_\chi \mapsto c_\chi\,f(\lambda)^{1/2}$, producing no new scale.
       The deformation is trivial in this case.
 
       Thus no non-trivial global multiplicative deformation by an independent dimensional parameter
@@ -186,7 +186,7 @@ at the Level of Admissibility}
       More precisely, the weight assigned to each conjugate Weil block $(c, q-c)$ at depth~$n$ is
       modulated by $\Phi(\lambda, n)$, altering the asymptotic behavior of $\sigma_{\mathrm{pair}}(n)$.
       Since the power-law scaling of $\sigma_{\mathrm{pair}}(n)$ is determined uniquely by the
-      admissibility structure with scale~$c_{\mathrm{BI}}$ and the BFS geometry (established in~\cite{Beau2026a28}),
+      admissibility structure with scale~$c_\chi$ and the BFS geometry (established in~\cite{Beau2026a28}),
       any deformation that is not a trivial $n$-independent rescaling (hence falls back to Case~(a))
       breaks this scaling.
       By the Mosco convergence result of Q5a~\cite{Beau2026q5a}, disrupting the power-law scaling of
@@ -212,7 +212,7 @@ at the Level of Admissibility}
     \paragraph{Conclusion.}
       Every deformation by an independent dimensional parameter $\lambda$ falls into one of Cases~(a),
       (b), or~(c), or a combination thereof.
-      In each case the deformation either reduces to a trivial redefinition of $c_{\mathrm{BI}}$ or violates
+      In each case the deformation either reduces to a trivial redefinition of $c_\chi$ or violates
       at least one of (i), (ii), (iii).
       This proves Theorem~\ref{thm:no-external-scale-L1}.
   \end{proof}
@@ -229,7 +229,7 @@ at the Level of Admissibility}
 
   \begin{proof}
     Let $F$ be a dynamical field carrying a dimensional coupling constant $g_F$ with
-    $[g_F] \neq [c_{\mathrm{BI}}]^k$ for any $k \in \mathbb{Q}$.
+    $[g_F] \neq [c_\chi]^k$ for any $k \in \mathbb{Q}$.
     Any dynamical contribution to the admissibility structure must enter the Born\textendash Infeld
     bound through its energy or action contribution, and therefore modifies the right-hand side
     of~A3.
@@ -241,14 +241,14 @@ at the Level of Admissibility}
     Note that fields with \emph{dimensionless} coupling constants (e.g., topological phases,
     certain geometric angles) are not excluded by the present argument: their coupling factor
     $\Phi(\lambda,\cdot)$ with $[\lambda] = 1$ falls into Case~(a) of the proof and reduces to a
-    trivial rescaling of $c_{\mathrm{BI}}$.
+    trivial rescaling of $c_\chi$.
     Such fields do not introduce independent dimensional scales and require separate analysis.
   \end{proof}
 
   \begin{remark}[Application to Reissner\textendash Nordstr\"om and Schwarzschild\textendash de~Sitter]
     \label{rem:RN-SdS}
     The electromagnetic charge $Q$ in the Reissner\textendash Nordstr\"om metric carries
-    dimensions $[Q]$ independent of $[c_{\mathrm{BI}}]^k$ for any~$k$.
+    dimensions $[Q]$ independent of $[c_\chi]^k$ for any~$k$.
     The cosmological constant $\Lambda$ in the Schwarzschild\textendash de~Sitter metric carries
     dimensions $[\Lambda] = [\mathrm{length}]^{-2}$, likewise independent.
     By Corollary~\ref{cor:no-field-without-scale}, neither admits a consistent coupling to the
@@ -267,10 +267,10 @@ at the Level of Admissibility}
   \subsection*{What this result does not say}
 
     Theorem~\ref{thm:no-external-scale-L1} does not assert that all emergent scales are
-    fully determined by $c_{\mathrm{BI}}$ without residual freedom.
+    fully determined by $c_\chi$ without residual freedom.
     Specifically, it leaves open whether derived quantities such as $\delta_{\mathrm{pair}}$
-    or $\beta^*$ --- which are of dimensional type compatible with derivation from $c_{\mathrm{BI}}$ via
-    the spectral cascade --- are uniquely fixed as functionals of~$c_{\mathrm{BI}}$, or whether
+    or $\beta^*$ --- which are of dimensional type compatible with derivation from $c_\chi$ via
+    the spectral cascade --- are uniquely fixed as functionals of~$c_\chi$, or whether
     they carry unfixed normalisation constants or initial conditions.
     Resolving this question is the content of Level~2.
 
@@ -278,12 +278,12 @@ at the Level of Admissibility}
 
     A Level~2 statement would take the following form:
     \begin{quote}
-      \emph{Every quantity of the admissibility cascade is computable from $c_{\mathrm{BI}}$ and the
+      \emph{Every quantity of the admissibility cascade is computable from $c_\chi$ and the
       spectral structure of Foundation~M, without free parameters or unfixed initial conditions.}
     \end{quote}
     This is a much stronger claim.
     It requires, in particular, showing that the power-law exponent $\beta^*$ of the cascade
-    is a determined functional of the BFS geometry and $c_{\mathrm{BI}}$, not merely a quantity consistent
+    is a determined functional of the BFS geometry and $c_\chi$, not merely a quantity consistent
     with the scaling established in~\cite{Beau2026a28}.
     Level~2 is left as an open problem.
 
@@ -294,16 +294,16 @@ at the Level of Admissibility}
     Such scales (e.g., mass ratios, spectral thresholds) are admissible precisely because they
     arise as outputs of the cascade, not as independent inputs.
     The criterion of Definition~\ref{def:independent-scale} cleanly separates the two categories:
-    an emergent scale $\mu$ is admissible if and only if $[\mu] = [c_{\mathrm{BI}}]^k$ for some $k$, or
+    an emergent scale $\mu$ is admissible if and only if $[\mu] = [c_\chi]^k$ for some $k$, or
     if $\mu$ is dimensionless.
 
   \subsection*{Stabilisation of the Gram rigidity classification}
 
     The Gram rigidity paper~\cite{Beau2026a3} establishes that the admissibility constraint
-    with bound $A_n \leq c_{\mathrm{BI}}/\sqrt{\lambda_n}$ forces the neutral-generator structure of the
+    with bound $A_n \leq c_\chi/\sqrt{\lambda_n}$ forces the neutral-generator structure of the
     projection to be classified by exactly four families of finite subgroups of $\mathrm{SU}(2)$:
     $Q_8$, $\mathrm{Dic}_n$ ($n \geq 3$), $2O$, and $2I$.
-    This classification is derived for the admissibility window defined by $c_{\mathrm{BI}}$.
+    This classification is derived for the admissibility window defined by $c_\chi$.
 
     Theorem~\ref{thm:no-external-scale-L1} provides the missing stability statement: the
     admissibility window cannot be deformed by an independent dimensional parameter.
