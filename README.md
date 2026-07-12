@@ -2,10 +2,6 @@ This repository contains the LaTeX source of the Cosmochrony paper:
 
 **No External Dimensional Scale at the Level of Admissibility**
 
-## 📄 Paper
-
-**PDF**: [`no-scale.pdf`](./out/no-scale.pdf)
-
 ## 🔎 Quick Summary
 
 This paper establishes that **no external dimensional scale can be introduced at the level of admissibility** within the
