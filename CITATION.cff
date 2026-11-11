@@ -7,7 +7,7 @@ authors:
     given-names: "Jérôme"
 repository-code: "https://github.com/Cosmochrony/no-scale"
 url: "https://cosmochrony.org/science/non-injective/no-scale/"
-version: "1.0.1"
+version: "2.0"
 doi: "10.5281/zenodo.19744767"
 license: "CC-BY-4.0"
 preferred-citation:
