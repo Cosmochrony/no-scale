@@ -1,18 +1,18 @@
 cff-version: 1.2.0
 message: "If you cite this work, please use the metadata from this file."
-title: "No External Dimensional Scale at the Level of Admissibility"
+title: "Is Admissibility Restricted to a Single Dimensional Scale?"
 type: software
 authors:
   - family-names: "Beau"
     given-names: "Jérôme"
 repository-code: "https://github.com/Cosmochrony/no-scale"
 url: "https://cosmochrony.org/science/non-injective/no-scale/"
-version: "1.0.1"
+version: "2.0"
 doi: "10.5281/zenodo.19744767"
 license: "CC-BY-4.0"
 preferred-citation:
   type: article
-  title: "No External Dimensional Scale at the Level of Admissibility"
+  title: "Is Admissibility Restricted to a Single Dimensional Scale?"
   authors:
     - family-names: "Beau"
       given-names: "Jérôme"
