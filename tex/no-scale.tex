@@ -51,13 +51,15 @@ at the Level of Admissibility}
     have internal gaps.
     The failure of the proof does not show that every Level~1 property is false: the question is open.
     What remains is dimensional.
-    The objects of the model do not fix the physical dimension of~$c_{\mathrm{BI}}$, and this gap is recorded
-    rather than filled.
+    The objects of the model fix only relations between dimensions, not the physical dimension
+    of~$c_{\mathrm{BI}}$, and the corpus reads that constant inconsistently; this gap is recorded rather than
+    filled.
     The definition of an independent dimensional parameter is therefore stated relative to a supplied dimensional
     assignment.
-    Under such an assignment, a constant factor that depends only on a parameter whose
-    dimension lies outside the span of the dimensions of the bound's ingredients cannot make the bound depend on
-    that parameter; a dimensionless factor rescales $c_{\mathrm{BI}}$.
+    Under such an assignment, and if the bound's right-hand side is a quantity of the amplitude's dimension, a
+    constant factor that depends only on a parameter whose dimension lies outside the span of the dimensions of
+    the bound's ingredients cannot make the bound depend on that parameter; a dimensionless factor rescales
+    $c_{\mathrm{BI}}$.
     The Level~1 / Level~2 distinction is kept, and both levels are open.
     The reading that physical scales should arise as outputs of the projection rather than as primitive inputs is
     labelled as an interpretation, not a result.
@@ -93,7 +95,7 @@ at the Level of Admissibility}
       \item \emph{The question is open.}
         An invalid proof does not show that its conclusion is false.
         Nothing in this note shows that an independent dimensional parameter can be introduced consistently into
-        the admissibility constraints, and nothing shows that it cannot.
+        the admissibility constraints, and nothing shows in general that it cannot.
     \end{enumerate}
     What remains established is a set of dimensional observations, stated in
     Sections~\ref{sec:framework} and~\ref{sec:homogeneity} with their premises.
@@ -109,9 +111,11 @@ at the Level of Admissibility}
     \begin{itemize}
       \item In Foundation, A3 is \emph{admissibility as non-premature selection} and A4 is \emph{projection
         locking}.
-        Neither axiom contains the Born\textendash Infeld bound, and neither excludes a dimensional parameter.
-        The bound appears among the internal constraints listed in A1, and at the level of the admissibility
-        filter~$\Pi_n$.
+        Both refer to the saturation threshold of the capacity axiom [A-cap] below, but neither states the
+        mode-amplitude bound~\eqref{eq:bound} or a single-scale condition, and neither excludes a dimensional
+        parameter.
+        The amplitude bound appears among the internal constraints listed in A1, and at the level of the
+        admissibility filter~$\Pi_n$.
       \item The load-bearing input is the capacity axiom [A-cap] of~\cite{Beau2026c}: a uniform bound
         $|\partial_\tau\phi_v|\le c_{\mathrm{BI}}$ on the per-node relaxation rate.
         The Born\textendash Infeld form is the saturation candidate compatible with [A-cap]; its unique selection
@@ -123,9 +127,10 @@ at the Level of Admissibility}
         \end{equation}
         used below is stated as a hypothesis (``[H2]'') in~\cite{Beau2026a24}.
         Here $\lambda_n$ is the Laplacian eigenvalue of the mode and $A_n$ its amplitude.
-      \item No paper of the programme states that $c_{\mathrm{BI}}$ is \emph{the unique primitive dimensional
-        scale}.
-        The single-scale premise of version~1 was assumed, not imported.
+      \item No source cited by version~1 states that $c_{\mathrm{BI}}$ is \emph{the unique primitive
+        dimensional scale}.
+        The single-scale premise of version~1 was assumed, not imported; papers that repeated it from version~1
+        are corrected in the same cycle as this version.
       \item No axiom of Foundation is a power-law constraint on the pair capacity $\sigma_{\mathrm{pair}}$.
     \end{itemize}
 
@@ -140,15 +145,23 @@ at the Level of Admissibility}
         monotonic ordering parameter of the relaxation.
         Neither is assigned a physical dimension, and~\cite{Beau2026c} states that [A-cap] does not fix the
         relation between $c_{\mathrm{BI}}$ and any continuum scale.
-      \item In~\eqref{eq:bound}, $\lambda_n$ is an eigenvalue of a graph Laplacian.
-        For a Cayley graph with unit weights it is a pure number, and~\eqref{eq:bound} then only gives
-        $[A_n]=[c_{\mathrm{BI}}]$, whatever that dimension is.
-        The amplitude $A_n$ is not given a dimension of its own.
-      \item The corpus uses the same symbol $c_{\mathrm{BI}}$ in [A-cap] and in~\eqref{eq:bound}.
-        The observations below do not depend on identifying the two constants.
+      \item In~\cite{Beau2026a24}, the $c_{\mathrm{BI}}$ of~\eqref{eq:bound} is the bound of [A-cap], and the
+        envelope is obtained for an oscillatory mode of frequency $\sqrt{\lambda_n}$ by applying [A-cap] to the
+        modal rate, $A_n\sqrt{\lambda_n}\le c_{\mathrm{BI}}$.
+        That derivation is conditional on [A-cap] and on the existence of a second-order oscillatory sector.
+        Under it, $[A_n]=[\phi]$ and $[\lambda_n]=[\tau]^{-2}$: the eigenvalue is a pure number only if the
+        ordering parameter is.
+      \item The white paper~\cite{Cosmochrony} names $c_{\mathrm{BI}}$ the ``fundamental admissible projective
+        speed'' and the ``maximal admissible flux speed'', and reads the effective speed of light as its
+        projection.
+        [A-cap] does not import that reading.
     \end{itemize}
-    The physical dimension of $c_{\mathrm{BI}}$ is therefore \emph{not fixed} by the model.
-    In particular, nothing in the corpus makes it a velocity, a length or an energy.
+    The model therefore fixes relations between dimensions,
+    $[c_{\mathrm{BI}}]=[\phi][\tau]^{-1}$, $[A_n]=[\phi]$, $[\lambda_n]=[\tau]^{-2}$ (the last two conditionally), but
+    not the dimensions $[\phi]$ and $[\tau]$ themselves, so the physical dimension of $c_{\mathrm{BI}}$ is
+    \emph{not fixed}.
+    The white paper's reading of $c_{\mathrm{BI}}$ as a speed is not part of the current axiom, and the corpus is
+    inconsistent on this point.
     This is a gap in the framework.
     The present note does not choose a dimension to make the definition below applicable.
 
@@ -187,6 +200,14 @@ at the Level of Admissibility}
           normalisation no-go excludes a non-trivial toric differential operator from a common scalar
           normalisation~\cite{Beau2026q5a}.
           The remark is withdrawn; $q$ is simply dimensionless.
+        \item Definition~\ref{def:independent-scale} measures independence against the multiples of
+          $[c_{\mathrm{BI}}]$ alone.
+          This is adequate only when the spectral data are dimensionless.
+          If, as in the relations of Section~\ref{subsec:dimension}, $[\lambda_n]$ is not a multiple of
+          $[c_{\mathrm{BI}}]$, the definition makes the model's own spectral parameter independent, and a Level~1
+          statement worded with it would fail trivially.
+          Independence would then have to be measured against the span of the dimensions of the model's own
+          quantities, as in Observation~\ref{obs:homogeneity}.
       \end{enumerate}
     \end{remark}
 
@@ -207,8 +228,9 @@ at the Level of Admissibility}
 
     \begin{observation}[Dimensional homogeneity of a constant factor]
       \label{obs:homogeneity}
-      Fix a dimensional assignment in which~\eqref{eq:bound} is homogeneous, and require~\eqref{eq:deformed-bound}
-      to hold in every system of units of that assignment.
+      Fix a dimensional assignment in which~\eqref{eq:bound} is homogeneous, and suppose that the right-hand side
+      of~\eqref{eq:deformed-bound}, the admissible maximum $A_n^{\max}$, is a quantity of dimension $[A_n]$: its
+      numerical value transforms as $[A_n]$ under every change of units of that assignment.
       \begin{enumerate}[(i)]
         \item If $[\lambda]$ does not lie in the $\mathbb{Q}$-span of $[c_{\mathrm{BI}}]$ and $[\lambda_n]$, then
           $f$ is constant.
@@ -225,8 +247,12 @@ at the Level of Admissibility}
       $u([\lambda])=a\neq 0$.
       Rescaling the units by $s^{u}$, $s>0$, leaves the numerical values of $A_n$, $c_{\mathrm{BI}}$ and
       $\lambda_n$ unchanged and sends $\lambda$ to $s^{a}\lambda$.
-      If~\eqref{eq:deformed-bound} holds in every system of units with the same right-hand side, then
-      $f(\lambda)=f(s^{a}\lambda)$ for all $s>0$, so $f$ is constant on $(0,\infty)$.
+      Since $u([A_n])=0$, the numerical value of $A_n^{\max}$ is unchanged by this rescaling, while the
+      right-hand side becomes $c_{\mathrm{BI}}\lambda_n^{-1/2}f(s^{a}\lambda)$.
+      Hence $f(\lambda)=f(s^{a}\lambda)$ for all $s>0$, so $f$ is constant on $(0,\infty)$.
+      The hypothesis on the right-hand side is needed: the mere truth of~\eqref{eq:deformed-bound} in every
+      system of units does not force this, since for $f(\lambda)=1+\lambda$ the deformed bound holds whenever
+      \eqref{eq:bound} does.
       This is the covariance argument behind the $\pi$ theorem~\cite{Buckingham1914,Bridgman1922}.
       (ii) $c_{\mathrm{BI}}$ enters~\eqref{eq:bound} linearly, so the factor is absorbed by
       $c_{\mathrm{BI}}\mapsto c_{\mathrm{BI}}\,f(\lambda)$.
@@ -278,7 +304,8 @@ at the Level of Admissibility}
         structure.
         That paper proves a verticality condition and the stability of the observable rank under supplied
         carrier and fibre hypotheses.
-        It states no power law for $\sigma_{\mathrm{pair}}$.
+        It states no power law for $\sigma_{\mathrm{pair}}$ determined by the admissibility structure; it
+        reports a finite-window fitted exponent at one prime as requiring confirmation.
       \item \emph{A continuum limit.}
         Case~(b) concluded that disrupting the power law ``destroys the existence of the continuum limit'' by a
         Mosco convergence result attributed to~\cite{Beau2026q5a}.
@@ -296,8 +323,9 @@ at the Level of Admissibility}
     \paragraph{Internal gaps.}
     \begin{itemize}
       \item \emph{Case (b).}
-        Even granting a power law, a factor bounded uniformly in~$n$ changes $\sigma_{\mathrm{pair}}$ by a
-        bounded factor and leaves the exponent unchanged.
+        Even granting a power law, and if the factor transferred multiplicatively to $\sigma_{\mathrm{pair}}$, a
+        factor bounded uniformly in~$n$ would change $\sigma_{\mathrm{pair}}$ by a bounded factor and leave the
+        exponent unchanged.
         An unbounded factor need not change it either: $n^{-\delta}\log n$ keeps the exponent~$\delta$.
         No law relating a deformation of the filter to the deformation of $\sigma_{\mathrm{pair}}$ was given.
       \item \emph{Case (c).}
@@ -318,7 +346,7 @@ at the Level of Admissibility}
 
     \paragraph{The Reissner\textendash Nordstr\"om / Schwarzschild\textendash de~Sitter application.}
     Version~1 counted $[\Lambda]=[\mathrm{length}]^{-2}$ as independent of~$[c_{\mathrm{BI}}]$.
-    If $[c_{\mathrm{BI}}]$ were a power of a length, $\Lambda$ would not be independent under
+    If $[c_{\mathrm{BI}}]$ were a non-zero power of a length, $\Lambda$ would not be independent under
     Definition~\ref{def:independent-scale}.
     If it were not, the Schwarzschild radius $r_s=2GM/c^2$, a length, would be excluded on the same ground, together
     with the Schwarzschild exterior the application was meant to single out.
@@ -369,7 +397,9 @@ at the Level of Admissibility}
         from $c_{\mathrm{BI}}$ and the spectral structure, without free parameters or unfixed initial
         conditions.
     \end{itemize}
-    Level~2 is stronger than Level~1, and both are open.
+    Level~2 is intended as the stronger property; it implies Level~1 when the spectral data are dimensionless
+    (Remark~\ref{rem:definition-scope}(iv)).
+    Both are open.
     Level~2 would require, among other things, showing that exponents such as $\delta_{\mathrm{pair}}$ and
     $\beta^*$ are determined by the BFS geometry.
     These exponents are dimensionless, so Level~1 alone would not constrain them.
@@ -409,11 +439,13 @@ at the Level of Admissibility}
     That failure does not settle the question, which remains open.
     The note keeps three dimensional points.
     \begin{enumerate}[(1)]
-      \item The model does not fix the physical dimension of $c_{\mathrm{BI}}$, so any statement about independent
-        dimensional parameters needs a supplied dimensional assignment.
-      \item Under such an assignment, a constant factor depending only on a parameter whose dimension lies outside
-        the span of the bound's ingredients cannot enter the bound homogeneously, and a dimensionless factor
-        rescales $c_{\mathrm{BI}}$ (Observation~\ref{obs:homogeneity}).
+      \item The model fixes relations between dimensions but not the physical dimension of $c_{\mathrm{BI}}$, and
+        the corpus reads it inconsistently, so any statement about independent dimensional parameters needs a
+        supplied dimensional assignment.
+      \item Under such an assignment, and if the bound's right-hand side is a quantity of the amplitude's
+        dimension, a constant factor depending only on a parameter whose dimension lies outside the span of the
+        bound's ingredients cannot make the bound depend on that parameter, and a dimensionless factor rescales
+        $c_{\mathrm{BI}}$ (Observation~\ref{obs:homogeneity}).
       \item Level~1 and Level~2 are distinct, and both are open.
     \end{enumerate}
     The reading that scales are outputs rather than inputs remains an interpretation
