@@ -1,7 +1,8 @@
-# No External Dimensional Scale at the Level of Admissibility (no-scale)
+# Is Admissibility Restricted to a Single Dimensional Scale? (no-scale)
 
 This repository contains the LaTeX source of the Cosmochrony structural note
-*No External Dimensional Scale at the Level of Admissibility*.
+*Is Admissibility Restricted to a Single Dimensional Scale?* (version 1 was titled *No External Dimensional
+Scale at the Level of Admissibility*).
 
 ## Status (version 2.0)
 
@@ -61,7 +62,7 @@ rigidity; open problem; emergent physics
 ```bibtex
 @misc{Beau2026j,
   author = {Beau, J.},
-  title  = {{No External Dimensional Scale at the Level of Admissibility}},
+  title  = {{Is Admissibility Restricted to a Single Dimensional Scale?}},
   year   = {2026},
   doi    = {10.5281/zenodo.19744767}
 }
