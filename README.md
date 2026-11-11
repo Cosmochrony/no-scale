@@ -29,15 +29,13 @@ and that application.** Three things are kept apart:
   import. The note records this gap and inconsistency and does not choose a dimension.
 - **Independent dimensional parameters are defined relative to a supplied dimensional assignment.** In a
   description with independent base dimensions of length, time and mass, at most one of \(G\), \(\hbar\) and a
-  mass scale can have a dimension that is a multiple of \([c_{\mathrm{BI}}]\). The definition is adequate only
-  when the spectral data are dimensionless.
+  mass scale can have a dimension that is a multiple of \([c_{\mathrm{BI}}]\). The definition is adequate only when the dimensions of the spectral data are multiples of \([c_{\mathrm{BI}}]\), in particular when they are dimensionless.
 - **A dimensional-homogeneity observation on the bound.** Under such an assignment, and if the bound's
   right-hand side is a quantity of the amplitude's dimension, a constant factor depending only on a parameter
   whose dimension lies outside the span of the bound's ingredients cannot make the bound depend on that
   parameter, and a dimensionless factor rescales \(c_{\mathrm{BI}}\mapsto c_{\mathrm{BI}}f(\lambda)\). Dimensional
   parameters entering through \(n\)-dependent combinations are not excluded.
-- **The Level 1 / Level 2 distinction.** Level 2 (functional determination of every scale) is intended as the
-  stronger property, and implies Level 1 when the spectral data are dimensionless; both are open.
+- **The Level 1 / Level 2 distinction.** Level 2 (functional determination of every scale) is intended as the stronger property; both are open.
 - The Gram rigidity classification is character-theoretic and scale-free; version 1's statement that it is
   derived under the Born–Infeld bound is withdrawn.
 
